@@ -4,7 +4,7 @@
 let section = document.getElementById("resultados-pesquisa")
 
 for(let jogador of jogadores){
-    section.innerHTML = `
+    section.innerHTML += `
     <div class="item-resultado">
                 <h2> 
                     <a href="#" target="_blank"> ${jogador.titulo} </a> 
