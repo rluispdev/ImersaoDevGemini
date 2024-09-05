@@ -1,1 +1,3 @@
-let dados = "Neymar Júnior"
+let dados = ["Neymar Júnior",
+             "Mbapé",
+             "GabiGol"];
