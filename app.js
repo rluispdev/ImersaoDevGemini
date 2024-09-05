@@ -2,9 +2,10 @@
  
 
 let section = document.getElementById("resultados-pesquisa")
+let resultados = ""
 
 for(let jogador of jogadores){
-    section.innerHTML += `
+    resultados = `
     <div class="item-resultado">
                 <h2> 
                     <a href="#" target="_blank"> ${jogador.titulo} </a> 
@@ -14,5 +15,5 @@ for(let jogador of jogadores){
             </div>
     `
 }
- 
-
+ //Armazenar tudo em uma var e depois passar ela para a section de uma vez.
+section.innerHTML  = resultados
