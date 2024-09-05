@@ -1,5 +1,7 @@
 
- 
+ function pesquisar(){
+    
+ }
 
 let section = document.getElementById("resultados-pesquisa")
 let resultados = ""
