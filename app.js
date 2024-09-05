@@ -1,9 +1,6 @@
 
  function pesquisar(){
-    
- }
-
-let section = document.getElementById("resultados-pesquisa")
+    let section = document.getElementById("resultados-pesquisa")
 let resultados = ""
 
 for(let jogador of jogadores){
@@ -18,3 +15,6 @@ for(let jogador of jogadores){
     `
 }
 section.innerHTML  = resultados
+
+ }
+
