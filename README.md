@@ -1,4 +1,4 @@
-![Template rluipdev]( )
+![Template rluipdev](template/rluispdev(1).png)
  
 # Imersão Dev com Google Gemini - Alura/Google
 
