@@ -8,14 +8,20 @@ function pesquisar() {
     section.innerHTML = "Digite um nome de jogador."
     return
   }
+
+  campoPesquisa = campoPesquisa.toLowerCase()
+
     // Inicializa uma string vazia para armazenar os resultados
     let resultados = "";
+    let titulo = "";
+    let descricao = "";
   
     // Itera sobre cada jogador no array 'jogadores'
     for (let jogador of jogadores) {
-    
+    titulo = jogador.titulo.toLowerCase()
+    descricao = jogador.descricao.toLowerCase()
 
-      if (jogador.titulo.includes (campoPesquisa)) {
+      if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa)) {
         // Constrói o HTML para cada jogador, utilizando template literals para inserir os dados dinamicamente
         resultados += `
         <div class="item-resultado">
