@@ -1,6 +1,10 @@
 function pesquisar() {
     // Seleciona a seção onde os resultados serão exibidos pelo ID
     let section = document.getElementById("resultados-pesquisa");
+
+    let campoPesquisa = document.getElementById("campo-pesquisa").value;
+
+    console.log(campoPesquisa)
   
     // Inicializa uma string vazia para armazenar os resultados
     let resultados = "";
