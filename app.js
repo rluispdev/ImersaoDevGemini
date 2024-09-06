@@ -15,13 +15,16 @@ function pesquisar() {
     let resultados = "";
     let titulo = "";
     let descricao = "";
+    let tags = "";
+
   
     // Itera sobre cada jogador no array 'jogadores'
     for (let jogador of jogadores) {
     titulo = jogador.titulo.toLowerCase()
     descricao = jogador.descricao.toLowerCase()
+    tags = jogador.tags.toLowerCase()
 
-      if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa)) {
+      if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
         // Constrói o HTML para cada jogador, utilizando template literals para inserir os dados dinamicamente
         resultados += `
         <div class="item-resultado">
