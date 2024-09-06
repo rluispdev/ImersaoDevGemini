@@ -38,6 +38,10 @@ function pesquisar() {
       }
     }
 
+    if(!resultados){
+      resultados = "Nada foi encontrado"
+    }
+
     // Atribui o HTML gerado para a propriedade innerHTML da seção, substituindo o conteúdo anterior
     section.innerHTML = resultados;
   }
