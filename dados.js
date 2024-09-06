@@ -38,5 +38,46 @@ let jogadores = [
       idade: 27,
       timeAtual: "Flamengo",
       tags: " atacante forte"
+    },
+    {
+      "titulo": "Lionel Messi",
+      "descricao": "Lionel Andrés Messi Cuccittini, considerado um dos maiores de todos os tempos, é um craque argentino conhecido por sua habilidade excepcional com a bola, dribles desconcertantes e visão de jogo. Atualmente no Inter Miami, já conquistou inúmeros títulos pelo Barcelona e seleção argentina.",
+      "link": "https://pt.wikipedia.org/wiki/Lionel_Messi",
+      "idade": 36,
+      "timeAtual": "Inter Miami CF",
+      "tags": "argentina, craque, bola de ouro"
+    },
+    {
+      "titulo": "Cristiano Ronaldo",
+      "descricao": "Cristiano Ronaldo dos Santos Aveiro, um ícone do futebol mundial, é reconhecido por sua força física, velocidade e habilidade de marcar gols. Com uma carreira vitoriosa em clubes como Manchester United, Real Madrid e Juventus, o português é um dos maiores artilheiros da história.",
+      "link": "https://pt.wikipedia.org/wiki/Cristiano_Ronaldo",
+      "idade": 39,
+      "timeAtual": "Al-Nassr",
+      "tags": "portugal, fenômeno, artilheiro, CR7"
+    },
+    {
+      "titulo": "Vinicius Jr.",
+      "descricao": "Vinicius Júnior, jovem promessa brasileira, tem se destacado no Real Madrid por sua velocidade, dribles e habilidade de finalizar. Considerado um dos maiores talentos da nova geração, o atacante tem sido fundamental para os sucessos recentes do clube merengue.",
+      "link": "https://pt.wikipedia.org/wiki/Vinícius_Júnior",
+      "idade": 23,
+      "timeAtual": "Real Madrid",
+      "tags": "brasil, velocidade, drible"
+    },
+    {
+      "titulo": "Kevin De Bruyne",
+      "descricao": "Kevin De Bruyne, meia belga do Manchester City, é conhecido por sua visão de jogo excepcional, passes precisos e capacidade de criar oportunidades de gol. Sua inteligência tática e habilidade técnica o tornam um dos melhores meio-campistas do mundo.",
+      "link": "https://pt.wikipedia.org/wiki/Kevin_De_Bruyne",
+      "idade": 32,
+      "timeAtual": "Manchester City",
+      "tags": "belgica, visão de jogo, passe"
+    },
+    {
+      "titulo": "Jude Bellingham",
+      "descricao": "Jude Bellingham, jovem talento inglês, tem se destacado pelo Borussia Dortmund e pela seleção inglesa por sua maturidade, força física e habilidade técnica. Considerado uma das maiores promessas do futebol mundial, o meio-campista já é um dos pilares de sua equipe.",
+      "link": "https://pt.wikipedia.org/wiki/Jude_Bellingham",
+      "idade": 20,
+      "timeAtual": "Real Madrid",
+      "tags": "inglaterra, jovem talento, meio-campo"
     }
+
   ];
