@@ -25,7 +25,7 @@ let jogadores = [
     },
     {
       titulo: "De Arrascaeta",
-      descricao: "Giorgian De Arrascaeta Reyes é um futebolista uruguaio que atua como meia. Atualmente, defende as cores do Flamengo.",
+      descricao: "Giorgian De Arrascaeta Reyes é um futebolista uruguaio que atua como meia. Atualmente, defende as cores do Flamengo. Nascido em Nuevo Berlin, uma pequena cidade no interior do Uruguai, Arrascaeta começou a jogar futebol aos 4 anos, no Pescadores Unidos, de sua cidade natal.",
       link: "https://pt.wikipedia.org/wiki/Giorgian_De_Arrascaeta",
       idade: 29,
       timeAtual: "Flamengo",

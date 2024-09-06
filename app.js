@@ -39,7 +39,7 @@ function pesquisar() {
     }
 
     if(!resultados || campoPesquisa == "" ){
-      resultados = "Nada foi encontrado"
+      resultados = "Nada foi encontrado."
     }
 
     // Atribui o HTML gerado para a propriedade innerHTML da seção, substituindo o conteúdo anterior
