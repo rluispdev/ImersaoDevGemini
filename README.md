@@ -21,9 +21,15 @@ Aprender a construir um site funcional e responsivo, utilizando HTML, CSS e Java
 ## 💻 Como Utilizar Este Repositório
 
 1. Clone este repositório:
-
 ````
 git@github.com:rluispdev/ImersaoDevGemini.git
+````
+
+2. Deploy 
+
+![Template rluipdev](template/rluispdev(2).png)
+````
+ https://imersao-dev-gemini-snowy.vercel.app
 ````
 
 ## Instrutores
