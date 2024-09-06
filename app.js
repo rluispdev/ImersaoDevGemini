@@ -4,7 +4,7 @@ function pesquisar() {
 
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
 
-  if (campoPesquisa == "") {
+  if (campoPesquisa == " ") {
     section.innerHTML = "Digite um nome de jogador."
     return
   }
@@ -38,7 +38,7 @@ function pesquisar() {
       }
     }
 
-    if(!resultados){
+    if(!resultados || campoPesquisa == "" ){
       resultados = "Nada foi encontrado"
     }
 
